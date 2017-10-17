@@ -32,6 +32,8 @@ Make a histogram of the total number of steps taken each day
 ```{r}
 hist(steps$Steps,15,xlab = "Steps Per Day",col="seagreen",main = "Total Steps Per Day")
 ```
+![Sample panel plot](instructions_fig/sample_panelplot.png) 
+
 
 Calculate and report the mean and median of the total number of steps taken per day
 ```{r}
